@@ -21,3 +21,25 @@
     - Public: No restriction.
 11. Non-access Modifiers: final, abstract, static, transient, synchronized, volatile, native.
 12. Java Keywords: Reserved words that cannot be used as identifiers.
+
+# Data Types
+1. Java is *statically* and *strongly* typed.
+    - **Statically Typed Language**: A statically typed language is one in which the type of a variable is known at compile time. This means that type checking is performed during compilation rather than at runtime. Examples of statically typed languages include Java, C, and C++.
+    - **Strongly Typed Language**: A strongly typed language is one in which types are enforced strictly, meaning that operations on incompatible types are not allowed without explicit conversion. This helps to prevent type errors and enhances code reliability. Examples of strongly typed languages include Java, Python, and Haskell.
+2. Types of data types in Java:
+    - **Primitive**: Primitive data types are the most basic data types available in Java. They are not objects and hold their values directly in memory. Java has 8 primitive data types:
+        - **byte**: 8-bit signed integer.
+        - **short**: 16-bit signed integer.
+        - **int**: 32-bit signed integer.
+        - **long**: 64-bit signed integer.
+        - **float**: Single-precision 32-bit IEEE 754 floating point.
+        - **double**: Double-precision 64-bit IEEE 754 floating point.
+        - **boolean**: Represents one bit of information, either true or false.
+        - **char**: Single 16-bit Unicode character.
+    - **Non-Primitive**: Non-primitive data types are also known as reference types because they refer to objects. Unlike primitive data types, non-primitive types can be used to call methods to perform certain operations. Examples of non-primitive data types include:
+        - **String**: Represents a sequence of characters.
+        - **Arrays**: A collection of elements of the same type.
+        - **Classes**: Blueprints for creating objects.
+        - **Interfaces**: Abstract types used to specify a behavior that classes must implement.
+        - **Enums**: Special classes that represent a group of constants.
+3. Java code for datatypes is in *DataTypes.java*
