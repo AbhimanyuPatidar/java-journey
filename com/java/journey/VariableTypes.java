@@ -1,6 +1,6 @@
 // Code to demonstrate types of variables in Java
 
-package com.java;
+package com.java.journey;
 
 public class VariableTypes {
     // Instance variable
