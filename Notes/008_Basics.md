@@ -43,3 +43,75 @@
         - **Interfaces**: Abstract types used to specify a behavior that classes must implement.
         - **Enums**: Special classes that represent a group of constants.
 3. Java code for datatypes is in *DataTypes.java*
+
+# Java Identifiers
+1. Identifiers are names given to various program elements such as variables, methods, classes, etc.
+2. They must begin with a letter (A-Z or a-z), currency character ($), or an underscore (_).
+3. Subsequent characters can be letters, digits (0-9), currency characters, or underscores.
+4. Identifiers are case-sensitive.
+5. They cannot be a reserved keyword in Java.
+6. There is no limit on the length of an identifier.
+7. The **reserved keywords** are:
+    `abstract`, `assert`, `boolean`, `break`, `byte`, `case`, `catch`, `char`, `class`, `const`, `continue`, `default`, `do`, `double`, `else`, `enum`, `extends`, `final`, `finally`, `float`, `for`, `goto`, `if`, `implements`, `import`, `instanceof`, `int`, `interface`, `long`, `native`, `new`, `null`, `package`, `private`, `protected`, `public`, `return`, `short`, `static`, `strictfp`, `super`, `switch`, `synchronized`, `this`, `throw`, `throws`, `transient`, `try`, `void`, `volatile`, `while`
+
+# Operators
+Java provides a rich set of operators to manipulate variables. We can divide all the Java operators into the following groups:
+
+1. **Arithmetic Operators**: Used to perform basic arithmetic operations.
+    - `+` (Addition)
+    - `-` (Subtraction)
+    - `*` (Multiplication)
+    - `/` (Division)
+    - `%` (Modulus)
+
+2. **Unary Operators**: Used with only one operand.
+    - `+` (Unary plus)
+    - `-` (Unary minus)
+    - `++` (Increment)
+    - `--` (Decrement)
+    - `!` (Logical complement)
+
+3. **Assignment Operators**: Used to assign values to variables.
+    - `=` (Simple assignment)
+    - `+=` (Add and assign)
+    - `-=` (Subtract and assign)
+    - `*=` (Multiply and assign)
+    - `/=` (Divide and assign)
+    - `%=` (Modulus and assign)
+
+4. **Relational Operators**: Used to compare two values.
+    - `==` (Equal to)
+    - `!=` (Not equal to)
+    - `>` (Greater than)
+    - `<` (Less than)
+    - `>=` (Greater than or equal to)
+    - `<=` (Less than or equal to)
+
+5. **Logical Operators**: Used to combine multiple boolean expressions.
+    - `&&` (Logical AND)
+    - `||` (Logical OR)
+    - `!` (Logical NOT)
+
+6. **Bitwise Operators**: Used to perform bit-level operations.
+    - `&` (Bitwise AND)
+    - `|` (Bitwise OR)
+    - `^` (Bitwise XOR)
+    - `~` (Bitwise complement)
+
+7. **Ternary Operator**: Used as a shorthand for the `if-else` statement.
+    - `condition ? if true : if false` (Ternary conditional)
+
+8. **Shift Operators**: Used to shift bits left or right.
+    - `<<` (Left shift)
+    - `>>` (Right shift)
+    - `>>>` (Unsigned right shift)
+
+9. **Instanceof Operator**: Used to test whether an object is an instance of a specific class or subclass.
+    - `instanceof`
+
+10. **Miscellaneous Operators**:
+    - `.` (Dot operator)
+    - `[]` (Array subscript)
+    - `()` (Parentheses for method calls)
+
+Java code for operators is in 'Operators.java'
