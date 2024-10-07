@@ -115,3 +115,24 @@ Java provides a rich set of operators to manipulate variables. We can divide all
     - `()` (Parentheses for method calls)
 
 Java code for operators is in 'Operators.java'
+
+# Types of Variables
+1. **Local Variables**:
+    - Declared inside a method, constructor, or block.
+    - Created when the method, constructor, or block is entered and destroyed once it is exited.
+    - Only accessible within the method, constructor, or block where it is declared.
+    - No default value; must be initialized before use.
+
+2. **Instance Variables**:
+    - Declared inside a class but outside any method, constructor, or block.
+    - Created when an object of the class is instantiated and destroyed when the object is destroyed.
+    - Each object has its own copy of instance variables.
+    - Default values: 0 for numeric types, false for boolean, and null for object references.
+
+3. **Class/Static Variables**:
+    - Declared with the `static` keyword inside a class but outside any method, constructor, or block.
+    - Created when the program starts and destroyed when the program stops.
+    - Shared among all instances of the class.
+    - Default values: 0 for numeric types, false for boolean, and null for object references.
+
+Java code for variables is in 'VariableTypes.java'
