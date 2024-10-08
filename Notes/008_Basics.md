@@ -136,3 +136,37 @@ Java code for operators is in 'Operators.java'
     - Default values: 0 for numeric types, false for boolean, and null for object references.
 
 Java code for variables is in 'VariableTypes.java'
+
+# Wrapper Classes
+Wrapper classes in Java provide a way to use primitive data types (int, boolean, etc.) as objects. Each of the eight primitive data types has a corresponding wrapper class in the `java.lang` package:
+
+1. **Byte**: Wrapper class for the primitive type `byte`.
+2. **Short**: Wrapper class for the primitive type `short`.
+3. **Integer**: Wrapper class for the primitive type `int`.
+4. **Long**: Wrapper class for the primitive type `long`.
+5. **Float**: Wrapper class for the primitive type `float`.
+6. **Double**: Wrapper class for the primitive type `double`.
+7. **Boolean**: Wrapper class for the primitive type `boolean`.
+8. **Character**: Wrapper class for the primitive type `char`.
+
+## Usage of Wrapper Classes
+Wrapper classes are used in various scenarios, such as:
+
+1. **Collections**: Java collections (e.g., `ArrayList`, `HashMap`) cannot store primitive types directly. Wrapper classes allow primitives to be stored in collections.
+2. **Utility Methods**: Wrapper classes provide utility methods for converting between types, parsing strings, etc.
+3. **Autoboxing and Unboxing**: Java automatically converts between primitives and their corresponding wrapper classes (autoboxing) and vice versa (unboxing).
+
+### Example
+```java
+// Autoboxing
+Integer intObj = 10; // int primitive is automatically converted to Integer object
+
+// Unboxing
+int intPrimitive = intObj; // Integer object is automatically converted to int primitive
+
+// Using wrapper class methods
+String str = "123";
+int num = Integer.parseInt(str); // Converts string to int
+```
+
+Java code for wrapper classes is in `WrapperClasses.java`.
